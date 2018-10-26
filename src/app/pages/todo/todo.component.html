@@ -1,0 +1,22 @@
+<div class="container" >
+  <div class="table-responsive" >
+    <table class="table" *ngFor="let todo of todos">
+      <thead>
+      <tr>
+        <th>UserId</th>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Completed</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>{{todo.userId}}</td>
+        <td>{{todo.id}}</td>
+        <td>{{todo.title}}</td>
+        <td>{{todo.completed}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
